@@ -9,7 +9,9 @@ import {Recipe} from './recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     // tslint:disable-next-line:max-line-length
-    new Recipe('A Test Recipe', 'This is a test', 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjFh7i5n8zmAhXsN-wKHZX1DzUQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgILkXp6XZdM&psig=AOvVaw0dvnnNiuzxuPiFHnHk80Ae&ust=1577206830274066')
+    new Recipe('A Test Recipe', 'This is a test', 'https://parkerdo.hu/wp-content/uploads/2018/01/H%C5%B1v%C3%B6sv%C3%B6lgyi-Nagyr%C3%A9t_02-696x464.jpg'),
+    // tslint:disable-next-line:max-line-length
+    new Recipe('A Test Recipe', 'This is a test', 'https://parkerdo.hu/wp-content/uploads/2018/01/H%C5%B1v%C3%B6sv%C3%B6lgyi-Nagyr%C3%A9t_02-696x464.jpg')
   ];
 
   constructor() {
